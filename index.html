@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <!-- Kurze Seitenbeschreibung für Suchmaschinen -->
-  <meta name="description" content="Nash's Portfolio – IT, Cybersecurity, Systemadministration und Programmierung. Einblicke in Projekte, Tutorials und mehr." />
+  <meta name="description" content="Einblick in meine IT-Projekte, Zertifikate und technischen Schwerpunkte." />
   <meta name="keywords" content="Nash, Portfolio, Cybersecurity, Systemadministration, Programmierung, IT, Tutorials" />
   <meta name="author" content="Nash" />
   <meta name="robots" content="index, follow" />
@@ -16,7 +16,7 @@
   <meta property="og:title" content="Nash's Portfolio" />
   <meta property="og:description" content="Nash's Portfolio – IT, Cybersecurity, Systemadministration und mehr." />
   <meta property="og:image" content="https://the-nash.de/images/NashLogo.png" />
-  <meta property="og:url" content="https://the-nash.de" />
+  <meta property="og:url" content="https://the-nash.de/portfolio.html" />
 
   <!-- ========== Twitter Cards ========== -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -28,9 +28,12 @@
   <link rel="stylesheet" href="css/all.min.css">
 
   <!-- CSS Datei -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-index.css">
 
-  <title>Nash’s Portfolio | IT, Projekte & Tutorials</title>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+  <title>Portfolio | IT, Projekte & Tutorials</title>
 </head>
 <body>
 
@@ -39,15 +42,13 @@
     <div class="nav-container">
       <div class="logo">
         <a href="index.html">
-          <img src="images/WebsiteLogoTry3.png" alt="Nash Logo" class="logo-img">
+          <img src="images/WebsiteLogo.png" alt="Nash Logo" class="logo-img">
         </a>
       </div>
       <ul class="nav-links">
-        <li><a href="#home">Startseite</a></li>
-        <li><a href="#about">Über mich</a></li>
-        <li><a href="#social">Social Media</a></li>
-        <li><a href="#certificates">Zertifikate</a></li>
-        <li><a href="#contact">Kontakt</a></li>
+        <!-- <li><a href="index.html">Startseite</a></li> -->
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="plattform.html">Plattform</a></li>
       </ul>
       <button class="menu-toggle" aria-label="Menü umschalten">&#9776;</button>
     </div>
@@ -57,122 +58,17 @@
   <header id="home">
     <div class="header-content">
       <h1>Willkommen bei the-nash.de</h1>
-      <p>Entdecken Sie mein Portfolio – Ihr digitaler Raum für IT, innovative Projekte, lehrreiche Tutorials und mehr.</p>
-      <a href="#about" class="header-button">Mehr erfahren</a>
+      <p>Diese Seite führt Sie zu meinem persönlichen Portfolio und einer wachsenden Plattform für freie Inhalte</p>
+      <div class="header-buttons">
+        <a href="portfolio.html" class="header-button">Zum Portfolio</a>
+        <a href="plattform.html" class="header-button">Zur Plattform</a>
+      </div>
+
     </div>
   </header>
 
   <!-- MAIN -->
   <main>
-    <!-- ÜBER MICH -->
-    <section id="about">
-      <h2>Über mich</h2>
-      <div class="about-container">
-        <div class="about-image-container"></div>
-        <div class="about-text">
-          <p>
-            Ich bin ein autodidaktischer IT-Enthusiast mit einem starken Fokus auf Cybersecurity, Systemadministration und Programmierung. Für mich steht die Sicherheit von Systemen und digitaler Infrastruktur an oberster Stelle. In einer Welt, die immer vernetzter und digitaler wird, sind der Schutz vor Cyberangriffen und die Sicherstellung einer stabilen, zuverlässigen IT-Umgebung von zentraler Bedeutung.
-          </p>
-          <p>
-            Seit vielen Jahren beschäftige ich mich intensiv mit den Herausforderungen der Cybersecurity. Dabei fasziniert mich nicht nur die Theorie hinter modernen Sicherheitskonzepten, sondern vor allem die praktische Anwendung, um Systeme aktiv vor Angriffen zu schützen. In meiner täglichen Arbeit als Systemadministrator setze ich mein Wissen gezielt ein, um IT-Infrastrukturen effizient und sicher zu gestalten.
-          </p>
-          <p>
-            Die Programmierung sehe ich als essenzielles Werkzeug, um innovative und maßgeschneiderte Lösungen zu entwickeln. Ich bin überzeugt, dass kontinuierliche Weiterbildung und der Austausch mit der Community unerlässlich sind, um stets auf dem neuesten Stand der Technik zu bleiben und den sich ständig ändernden Bedrohungen im digitalen Raum zu begegnen.
-          </p>
-          <p>
-            Für mich bedeutet Cybersecurity weit mehr als nur der Schutz von Daten – sie ist die Grundlage für Vertrauen in alle digitalen Prozesse, die unseren Alltag prägen. Mit meinem Engagement und meiner Expertise strebe ich danach, einen aktiven Beitrag zu einer sicheren und zukunftsfähigen IT-Landschaft zu leisten.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOCIAL MEDIA -->
-    <section id="social">
-      <h2>Social Media</h2>
-      <div class="social-wrapper">
-        <div class="social-text">
-          <p>
-            Über meine Social-Media-Kanäle veröffentliche ich regelmäßig Inhalte zu aktuellen Projekten, technischen Analysen und praxisnahen Tutorials. Wer sich für IT-Sicherheit, Systemadministration oder Softwareentwicklung interessiert, findet dort fundierte Beiträge aus Theorie und Praxis.
-          </p>
-        </div>
-        <div class="social-boxes">
-          <!-- 1. GitHub -->
-          <a href="https://github.com/The-nash-de" target="_blank" class="social-card">
-            <i class="fab fa-github"></i>
-            <h3>GitHub</h3>
-          </a>
-          <!-- 2. X (ehemals Twitter) -->
-          <a href="https://x.com/the_nash_de" target="_blank" class="social-card">
-            <i class="fab fa-x-twitter"></i>
-            <h3>X</h3>
-          </a>
-          <!-- 3. LinkedIn -->
-          <a href="https://www.linkedin.com/in/rené-schwenzcke-9aa70235a" target="_blank" class="social-card">
-            <i class="fab fa-linkedin"></i>
-            <h3>LinkedIn</h3>
-          </a>
-          <!-- 4. YouTube -->
-          <a href="https://www.youtube.com/@the-nash.d3" target="_blank" class="social-card">
-            <i class="fab fa-youtube"></i>
-            <h3>YouTube</h3>
-          </a>
-          <!-- 5. Odysee -->
-          <a href="https://odysee.com/@the-nash" target="_blank" class="social-card">
-            <i class="fas fa-play"></i>
-            <h3>Odysee</h3>
-          </a>
-          <!-- 6. Instagram -->
-          <a href="https://www.instagram.com/thenash.de" target="_blank" class="social-card">
-            <i class="fab fa-instagram"></i>
-            <h3>Instagram</h3>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ZERTIFIKATE -->
-    <section id="certificates">
-      <h2>Zertifikate</h2>
-      <p class="description">
-        Hier erhalten Sie einen umfassenden Überblick über meine Qualifikationen. Sie können die Zertifikate als PDF herunterladen, um sich detailliert über meine erworbenen Kenntnisse zu informieren.
-      </p>
-      <div class="flex-container">
-        <div class="flex-item">
-          <h3>Certified in Cybersecurity (ISC)²</h3>
-          <img src="zertifikat1.jpg" alt="Certified in Cybersecurity (ISC)²" class="certificate-img">
-          <p>
-            Diese Zertifizierung bescheinigt meine grundlegenden Kenntnisse im Bereich der Cybersecurity und qualifiziert für weiterführende (ISC)²-Programme wie den CISSP.
-          </p>
-          <p><a href="zertifikat1.pdf" download>PDF herunterladen</a></p>
-        </div>
-        <div class="flex-item">
-          <h3>Linux Essentials (LPI)</h3>
-          <img src="zertifikat-linux-essentials.jpg" alt="Linux Essentials Zertifikat" class="certificate-img">
-          <p>
-            Dieses Zertifikat bestätigt meine grundlegenden Linux-Kenntnisse und bildet den Einstieg in weiterführende Zertifizierungen des LPI.
-          </p>
-          <p><a href="zertifikat-linux-essentials.pdf" download>PDF herunterladen</a></p>
-        </div>
-        <div class="flex-item">
-          <h3>LPIC-1: Linux Administrator</h3>
-          <img src="zertifikat2.jpg" alt="LPIC-1 Zertifikat" class="certificate-img">
-          <p>
-            Der LPIC-1-Nachweis bestätigt meine Fähigkeiten in der Linux-Systemadministration, Netzwerkkonfiguration und im Umgang mit grundlegenden Sicherheitskonzepten.
-          </p>
-          <p><a href="zertifikat2.pdf" download>PDF herunterladen</a></p>
-        </div>
-      </div>
-      <p class="centered-note">Die Zertifikate folgen in Kürze.</p>
-    </section>
-
-    <!-- KONTAKT -->
-    <section id="contact">
-      <h2>Kontakt</h2>
-      <p>Bei Fragen, Anregungen oder Rückmeldungen erreichen Sie mich jederzeit unter folgender E-Mail-Adresse</p>
-      <a href="mailto:info@the-nash.de" class="contact-button">
-        <i class="fas fa-envelope"></i> info@the-nash.de
-      </a>
-    </section>
   </main>
 
   <!-- FOOTER -->
